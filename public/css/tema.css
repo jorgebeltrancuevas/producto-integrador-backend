@@ -1,0 +1,28 @@
+:root {
+    --marfil: #FAF5E9;
+    --superficie: #FFFDFA;
+    --verde: #009B4D;
+    --verde-oscuro: #145A36;
+    --verde-profundo: #103B28;
+    --verde-suave: #E5F1E7;
+    --amarillo: #FFCC00;
+    --amarillo-hover: #EABD00;
+    --texto: #233529;
+    --texto-secundario: #526356;
+    --borde: #D8DCCB;
+    --borde-control: #7F907E;
+    --peligro: #AE2938;
+}
+
+body {
+    color: var(--texto);
+}
+
+h1, h2, h3 {
+    color: var(--verde-profundo);
+}
+
+:focus-visible {
+    outline: 2px solid var(--verde-oscuro);
+    outline-offset: 3px;
+}
